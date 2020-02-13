@@ -27,3 +27,6 @@ weather_data = {
   ]
 }
 
+puts "Currently it is #{weather_data[:current][]:temperature]} degrees and #{weather_data[:current][:conditions]}." 
+puts "Tomorrow it will be and Mostly Cloudy."
+puts "The next day it we will see Partly Cloudy skies, with a temperature of 70."

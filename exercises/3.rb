@@ -15,3 +15,16 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_shopping_list = ["milk","eggs","kale"]
+brian_shopping_list = ["beer","cookies","bacon"]
+
+# puts my_shopping_list
+# puts brian_shopping_list
+
+the_combined_list = my_shopping_list + brian_shopping_list
+# puts the_comibined_list
+sorted_list = the_combined_list.sort
+# puts sorted_list 
+
+uniquely_sorted_list = sorted_list.uniq
+puts uniquely_sorted_list

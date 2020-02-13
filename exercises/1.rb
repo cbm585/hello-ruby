@@ -20,4 +20,9 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
-
+Die_1 = rand(1..6)
+Die_2 = rand(1..6)
+total = Die_1 + Die_2
+puts Die_1
+puts Die_2
+puts "The total is: #{total}"
